@@ -40,7 +40,7 @@
 
 					<div style = "float:right; font-size: 85%; position: relative; top:-10px">
   
-						<a class = "ScreenMenu" menuid = "ForgotPassword" href = "#ForgotPassword">Forgot Password???</a>
+						<a class = "ScreenMenu" menuid = "ForgotPassword" href = "Forgot_Password.php">Forgot Password???</a>
     
 					</div>
     
