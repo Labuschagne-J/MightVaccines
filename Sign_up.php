@@ -16,56 +16,7 @@
 	<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
-<!--	
-	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
-	
-	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type = "text/javascript"></script>
-	
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js" type = "text/javascript"></script>
-	
-	<script src = "https://awesomefunctions.com/cdn/awesome-functions-min.js" type = "text/javascript"></script>
-	
-	
-	<script type = "text/javascript">
-
-		$(document).ready(function()
-		{
-		//$('.Screen').hide();
-	
-		//show signup screen
-	
-		//$('.Signup_Screen').show();
-	
-		$("ScreenMenu").click(function()
-		{
-		$('.Screen').hide();
-		
-		var MenuId = $(this).attr('menuid');
-		
-			if(MenuId == "Login")
-			{
-				$('.Login_Screen').show();
-			}
-		
-		
-			else if(MenuId == "ForgotPassword")
-			{
-				$('.ForgotPassword_Screen').show();
-			}
-		
-			else if(MenuId == "Signup")
-			{
-				$('.Signup_Screen').show();
-			}
-			console.log(MenuId);
-		});
-	
-	});
-	</script>
-	-->
 </head>
 <body>
 
@@ -88,7 +39,7 @@
 					<div class = "panel-title">Sign Up</div>
 
 					<div Style = "float:right; font-size: 85%; position: relative; top:-10px">
-						<a class = "ScreenMenu" menuid = "Login" href = "#login">Log In</a>
+						<a class = "ScreenMenu" menuid = "Login" href = "Index.php">Log In</a>
 					</div>
 					
 				</div>
