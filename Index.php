@@ -16,56 +16,7 @@
 	<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
-<!--	
-	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
-	
-	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type = "text/javascript"></script>
-	
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js" type = "text/javascript"></script>
-	
-	<script src = "https://awesomefunctions.com/cdn/awesome-functions-min.js" type = "text/javascript"></script>
-	
-	
-	<script type = "text/javascript">
-
-		$(document).ready(function()
-		{
-		//$('.Screen').hide();
-	
-		//show signup screen
-	
-		//$('.Signup_Screen').show();
-	
-		$("ScreenMenu").click(function()
-		{
-		$('.Screen').hide();
-		
-		var MenuId = $(this).attr('menuid');
-		
-			if(MenuId == "Login")
-			{
-				$('.Login_Screen').show();
-			}
-		
-		
-			else if(MenuId == "ForgotPassword")
-			{
-				$('.ForgotPassword_Screen').show();
-			}
-		
-			else if(MenuId == "Signup")
-			{
-				$('.Signup_Screen').show();
-			}
-			console.log(MenuId);
-		});
-	
-	});
-	</script>
-	-->
 </head>
 <body>
 
@@ -115,11 +66,11 @@
 
 						<div class = "form-group">
    
-							<label for = "email" class = "col-md-3 control-label">Email</label>
+							<label for = "Emp_Email" class = "col-md-3 control-label">Email</label>
 
 							<div class = "col-md-9">
 
-								<input type = "text" class = "form-control Login_Email" placeholder = "Email Address">
+								<input type = "text" class = "form-control Login_Email" placeholder = "Enter Email Address">
     
 							</div>
 
@@ -129,7 +80,7 @@
 
 						<div class = "form-group">
 
-							<label for = "password" class = "col-md-3 control-label">Password</label>
+							<label for = "Emp_Password" class = "col-md-3 control-label">Password</label>
 
 							<div class = "col-md-9">
 
@@ -139,14 +90,14 @@
 
 						</div>
 
-						<!--[Company info button]-->
+						<!--[Company Login button]-->
 
 						<div class = "form-group">                                                      
 
 							<div class = "col-md-offset-3 col-md-9">
   
 								<button type = "button" class = "btn btn-info Login_Btn">Login</button>
-
+								
 							</div>	
 
 						</div>
@@ -157,7 +108,7 @@
 
 								<div style = "border-top: 1px; solid#888; padding-top:15px; font-size:85%">
         
-									Are you lost??? <a class = "ScreenMenu" menuid = "CompInfo" href = "#CompInfo">See Company Information???</a>
+									Are you lost??? <a class = "ScreenMenu" menuid = "CompInfo" href = "Information.html">See Company Information???</a>
         
 								</div>
 
