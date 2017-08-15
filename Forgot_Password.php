@@ -16,56 +16,7 @@
 	<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
-<!--	
-	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
-	
-	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type = "text/javascript"></script>
-	
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js" type = "text/javascript"></script>
-	
-	<script src = "https://awesomefunctions.com/cdn/awesome-functions-min.js" type = "text/javascript"></script>
-	
-	
-	<script type = "text/javascript">
-
-		$(document).ready(function()
-		{
-		//$('.Screen').hide();
-	
-		//show signup screen
-	
-		//$('.Signup_Screen').show();
-	
-		$("ScreenMenu").click(function()
-		{
-		$('.Screen').hide();
-		
-		var MenuId = $(this).attr('menuid');
-		
-			if(MenuId == "Login")
-			{
-				$('.Login_Screen').show();
-			}
-		
-		
-			else if(MenuId == "ForgotPassword")
-			{
-				$('.ForgotPassword_Screen').show();
-			}
-		
-			else if(MenuId == "Signup")
-			{
-				$('.Signup_Screen').show();
-			}
-			console.log(MenuId);
-		});
-	
-	});
-	</script>
--->
 </head>
 <body>
 
@@ -89,7 +40,7 @@
 
 					<div style = "float:right; font-size: 85%; position: relative; top:-10px">
     
-						<a class = "ScreenMenu" menuid = "Login" href = "#Login">Login</a>
+						<a class = "ScreenMenu" menuid = "Login" href = "Index.php">Login</a>
     
 					</div>
 
@@ -141,7 +92,7 @@
 
 								<div style = "border-top: 1px; solid#888; padding-top:15px; font-size:85%">
         
-									Are you lost??? <a class = "ScreenMenu" menuid = "CompInfo" href = "#CompInfo">See Company Information???</a>
+									Are you lost??? <a class = "ScreenMenu" menuid = "CompInfo" href = "Information.html">See Company Information???</a>
         
 								</div>
 
