@@ -8,9 +8,9 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <title>Form Validation | Creative - Bootstrap 3 Responsive Admin Template</title>
+    <title>GemChem</title>
 
-    <!-- Bootstrap CSS -->    
+    <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
     <link href="css/bootstrap-theme.css" rel="stylesheet">
@@ -21,9 +21,9 @@
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
-	
 
-  
+
+
   </head>
 
   <body>
@@ -40,14 +40,14 @@
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
-      </header>      
+      </header>
       <!--header end-->
 
       <!--sidebar start-->
       <aside>
           <div id="sidebar"  class="nav-collapse ">
               <!-- sidebar menu start-->
-              <ul class="sidebar-menu">                
+              <ul class="sidebar-menu">
                   <li class="active">
                       <a class="" href="index.html">
                           <i class="icon_house_alt"></i>
@@ -61,10 +61,10 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="urgent_Notifications.html">Urgent Notifications</a></li>                          
+                          <li><a class="" href="urgent_Notifications.html">Urgent Notifications</a></li>
                           <li><a class="" href="Reminders.html">Reminders</a></li>
                       </ul>
-                  </li>       
+                  </li>
                   <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon_desktop"></i>
@@ -74,12 +74,12 @@
                       <ul class="sub">
                           <li><a class="" href="List.html">List</a></li>
                           <li><a class="" href="Edit.html">Edit</a></li>
-                 
+
                       </ul>
                   </li>
-                 
-              
-                             
+
+
+
                   <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon_table"></i>
@@ -90,19 +90,19 @@
                           <li><a class="" href="Virus.html">Manage Viruses</a></li>
                       </ul>
                   </li>
-                  
+
                   <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon_documents_alt"></i>
                           <span>Pager</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
-                      <ul class="sub">                          
+                      <ul class="sub">
                           <li><a class="" href="404.html">Employees</a></li>
-                          
+
                       </ul>
                   </li>
-                  
+
               </ul>
               <!-- sidebar menu end-->
           </div>
@@ -117,48 +117,26 @@
 					<h3 class="page-header"><i class="fa fa-files-o"></i>Reminders</h3>
 				</div>
 			</div>
-              <!-- Form validations -->              
-              <div class="row">
-                          <div class="panel-body">
-                              <div class="tab-content">
-                                  <div id="recent-activity" class="tab-pane active">
-                                      <div class="profile-activity">                                          
-                                          <div class="act-time">                                      
-                                              <div class="activity-body act-in">
-                                                  <span class="arrow"></span>
-                                                  <div class="text">
-                                                      <a href="#" class="activity-img"><img class="avatar" src="img/chat-avatar.jpg" alt=""></a>
-                                                      <p class="attribution"><a href="#">Tiaan Rademan</a> at 4:25pm, 30th July 2017</p>
-                                                      <p>Have a board meeting on 27 August 2017 at 13:30.</p>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                          <div class="act-time">                                      
-                                              <div class="activity-body act-in">
-                                                  <span class="arrow"></span>
-                                                  <div class="text">
-                                                      <a href="#" class="activity-img"><img class="avatar" src="img/chat-avatar.jpg" alt=""></a>
-                                                      <p class="attribution"><a href="#">Henko van Staden </a> at 5:25pm, 20th July 2017</p>
-                                                      <p>Golfday with the office on 1 September 2017. Tee off is at 9:30.</p>                                                      
-                                                  </div>
-                                              </div>
-                                          </div>
-                                          <div class="act-time">                                      
-                                              <div class="activity-body act-in">
-                                                  <span class="arrow"></span>
-                                                  <div class="text">
-                                                      <a href="#" class="activity-img"><img class="avatar" src="img/chat-avatar.jpg" alt=""></a>
-                                                      <p class="attribution"><a href="#">Rose Crack</a> at 5:25am, 30th June 2017</p>
-                                                      <p>Please call john to arrange meeting with him.</p>
-                                                  </div>
-                                              </div>
-                                          </div>
-              </div>
-	
-</div>
+              <!-- Form validations -->
+              <header>
+          			<h1>To-Do list</h1>
+          			<input type="text" placeholder="Enter an activity.." id="item">
+          			<button id="add">
+          				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><path class="fill" d="M16,8c0,0.5-0.5,1-1,1H9v6c0,0.5-0.5,1-1,1s-1-0.5-1-1V9H1C0.5,9,0,8.5,0,8s0.5-1,1-1h6V1c0-0.5,0.5-1,1-1s1,0.5,1,1v6h6C15.5,7,16,7.5,16,8z"/></g></svg>
+          			</button>
+          		</header>
 
-<
-			  
+          		<div class="container">
+          			<!-- Uncompleted tasks -->
+          			<ul class="todo" id="todo"></ul>
+
+          			<!-- Completed tasks -->
+          			<ul class="todo" id="completed"></ul>
+          		</div>
+
+          		<!-- JavaScript and CSS -->
+          		<script src="Recources\JS\main.js"></script>
+              <link rel="stylesheet" type="text/css" href="Recources\CSS\style.css">
               <!-- page end-->
           </section>
       </section>
@@ -178,7 +156,7 @@
     <!-- custom form validation script for this page-->
     <script src="js/form-validation-script.js"></script>
     <!--custome script for all page-->
-    <script src="js/scripts.js"></script>    
+    <script src="js/scripts.js"></script>
 
 
   </body>
