@@ -26,6 +26,7 @@
   </head>
 
   <body>
+
   <!-- container section start -->
   <section id="container" class="">
       <!--header start-->
@@ -61,7 +62,7 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="urgent_Notifications.html">Urgent Notifications</a></li>
+                          
                           <li><a class="" href="Reminders.html">Reminders</a></li>
                       </ul>
                   </li>
@@ -129,47 +130,36 @@
                           <header class="panel-heading">
                              List of Inventory
                           </header>
-                          <table class="table">
-                              <thead>
-                              <tr>
-                                  <th>#</th>
-                                  <th>Name</th>
-                                  <th>Stock number</th>
-                                  <th>Quantity</th>
-                              </tr>
-                              </thead>
-                              <tbody>
-                              <tr>
-                                  <td>1</td>
-                                  <td>HCL</td>
-                                  <td>123</td>
-                                  <td>25L</td>
-                              </tr>
-                              <tr>
-                                  <td>2</td>
-                                  <td>NaCl</td>
-                                  <td>232</td>
-                                  <td>23L</td>
-                              </tr>
-                              <tr>
-                                  <td>3</td>
-                                  <td>H3N3</td>
-                                  <td>111</td>
-                                  <td>5g</td>
-                              </tr>
-							   <tr>
-                                  <td>4</td>
-                                  <td>H3N4</td>
-                                  <td>116</td>
-                                  <td>7g</td>
-                              </tr>
-							   <tr>
-                                  <td>5</td>
-                                  <td>N3N3</td>
-                                  <td>101</td>
-                                  <td>1g</td>
-                              </tr>
-                              </tbody>
+                          
+                               <form action="Displaylist.php" method="post">
+                           <table class="table">
+           
+
+            <input type="submit" name="insert" value="Display table of list">
+
+     
+
+    
+
+
+
+
+ <style>
+.textbox { 
+    background: white; 
+    border: 1px solid #ffa853; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px 3px #ffa853; 
+    color: #666; 
+    outline: none; 
+    height:23px; 
+    width: 275px; 
+  } 
+</style>
+
+	
+
+  </form>
                           </table>
                       </section>
 
@@ -206,6 +196,6 @@
       $(".knob").knob();
 
   </script>
-
+</form>
   </body>
 </html>

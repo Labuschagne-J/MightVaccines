@@ -25,8 +25,7 @@
   </head>
 
   <body>
-   <form method = "get" action = "connection.php" >
-</form>
+  
   <!-- container section start -->
   <section id="container" class="">
       <!--header start-->
@@ -64,7 +63,7 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="urgent_Notifications.html">Urgent Notifications</a></li>                          
+                                            
                           <li><a class="" href="Reminders.html">Reminders</a></li>
                       </ul>
                   </li>       
@@ -130,36 +129,36 @@
               <!-- page start-->
               <div class="row">
                   <div class="col-sm-6">
-                     <br/><b> Display List: </b>
-					 <form action = "display.php" method= "POST";
+                 
+					
                      
-					  <fieldset>
+
 					  
-<form method = "post" action = "insert.php" value = "refresh" >
-<p>
-stock num <Input type = "text" name = "stock_num">
-<p>
-stock name <Input type = "text" name = "stock_name">
-<p>
-quantity <Input type = "text" name = "quantity">
-<p>
-<input type = "submit" class="action-button shadow animate blue" href="Edit.html"  value = "Insert" name = "submit">
- <br/><b> Display List: </b>
-					 <form action = "display.php" method= "POST";
-					 <p> Enter the number of the product : </p><input type ="text" name = "s_num"><br/>
-					 <input type ="submit" name = "submit" value = "Show me">
-					 </form>
-<a href="#" class="action-button shadow animate red">REMOVE</a>
-<a href="#" class="action-button shadow animate green">EDIT</a>
-<a href="#" class="action-button shadow animate yellow">Search</a>
-</form>
+
+        <form action="insert.php" method="post">
+
+            <input type="text" name="stock_num" required placeholder="Stock num"><br><br>
+
+            <input type="text" name="stock_name"  placeholder=" Name"><br><br>
+
+            <input type="number" name="quantity"  placeholder="Quantity" min="1" max="1000"><br><br>
+
+            <input type="submit" name="insert" value="Add Data To Database">
+			
+		
+
+     
+
+    
+
+
 
 
  <style>
 .textbox { 
     background: white; 
     border: 1px solid #ffa853; 
-    border-radius: 5px; 
+    border-radius: 6px; 
     box-shadow: 0 0 5px 3px #ffa853; 
     color: #666; 
     outline: none; 
@@ -169,7 +168,36 @@ quantity <Input type = "text" name = "quantity">
 </style>
 
 	
-  </fieldset>
+
+  </form>
+ ====================================================================================================
+To delete a record, please just enter the record number in the textbox below and click on the button
+======================================================================================================
+  
+   <form action="delete.php" method="post">
+   
+
+            <input type="text" name="stock_num" required placeholder="Stock num"><br><br>
+
+     
+			
+			<input type = "submit" name="delete" value="Delete stock number" >
+			</form>
+			
+====================================================================================================
+To search a record, please just enter the record number in the textbox below and click on the button
+======================================================================================================
+  
+   <form action="search.php" method="post">
+   
+
+            <input type="text" name="stock_num" required placeholder="Stock num"><br><br>
+    
+     
+			
+			<input type = "submit" name="search" value="search stock number" >
+			</form>
+  
                   </div>
                  
               </div>
