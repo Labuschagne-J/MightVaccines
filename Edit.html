@@ -170,8 +170,8 @@
 	
 
   </form>
- ====================================================================================================
-To delete a record, please just enter the record number in the textbox below and click on the button
+====================================================================================================
+delete a record, please just enter the record number in the textbox below and click on the button
 ======================================================================================================
   
    <form action="delete.php" method="post">
@@ -184,8 +184,8 @@ To delete a record, please just enter the record number in the textbox below and
 			<input type = "submit" name="delete" value="Delete stock number" >
 			</form>
 			
-====================================================================================================
-To search a record, please just enter the record number in the textbox below and click on the button
+ ====================================================================================================
+  search a record, please just enter the record number in the textbox below and click on the button
 ======================================================================================================
   
    <form action="search.php" method="post">
@@ -196,6 +196,22 @@ To search a record, please just enter the record number in the textbox below and
      
 			
 			<input type = "submit" name="search" value="search stock number" >
+			</form>
+ ====================================================================================================
+ update a record, please just enter the record number in the textbox below and change the quantity, then click on the button
+======================================================================================================
+  
+   <form action="rename.php" method="post">
+   
+
+            <input type="text" name="stock_num" required placeholder="Stock num"><br><br>
+    
+     
+			
+			<input type = "submit" name="search" value="change quantity" >
+			
+			
+	<input type="number" name="quantity"  placeholder="Quantity" min="1" max="1000"><br><br>
 			</form>
   
                   </div>
