@@ -27,7 +27,7 @@ if (isset($_REQUEST['username'])){
 <h3>You are registered successfully.</h3>
 <br/>Click here to <a href='login.html'>Login</a></div>";
         }
-    }else{
+    }
 ?>
 <div class="form">
 <h1>Registration</h1>
@@ -38,6 +38,6 @@ if (isset($_REQUEST['username'])){
 <input type="submit" name="submit" value="Register" />
 </form>
 </div>
-<?php } ?>
+<?php?>
 </body>
 </html>
