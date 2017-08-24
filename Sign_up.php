@@ -1,166 +1,43 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html>
 <head>
-	<title>PHP Login System</title>
-	<meta charset = "utf-8">
-	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
-	
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" ></script>
-
-	<script src = "https://apimk.com/cdn/awesome-functions/awesome-functions-mini.js"></script>
-
-	<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-
-
+<meta charset="utf-8">
+<title>Registration</title>
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+<?php
+require('connection.php');
 
-	<div class = "container">
-
-		<div class = "MsgAlert"> </div>
-
-		<!--[sing up screen]-->
-
-		<div class = "col-md-6 col-md-offset-3 col-sm-offset-2 Screen Signup_Screen" style = "display:none1;margin-top:50px;">
-
-			<!--[Start panel]-->
-
-			<div class = "panel panel-info">
-
-				<!--[Start panel heading]-->
-
-				<div class = "panel-heading">
-
-					<div class = "panel-title">Sign Up</div>
-
-					<div Style = "float:right; font-size: 85%; position: relative; top:-10px">
-						<a class = "ScreenMenu" menuid = "Login" href = "Index.php">Log In</a>
-					</div>
-					
-				</div>
-				<!--[Start panel body]-->
-
-				<div class = "panel-body">
-
-					<div style = "display:none" class = "alert alert-danger Signup-Alert">
-
-						Error:
-
-					</div>
-
-					<!--[Start signup form]-->
-
-					<form class = "form-horizontal Signup_Form" role = "form">
-
-						<!--[Start name signup]-->
-					
-						<div class = "form-group">
-
-							<label for = "Emp_Name" class = "col-md-3 control-label">Name</label>
-
-							<div class = "col-md-9">
-
-								<input type = "text" class = "form-control Signup_EmpName" placeholder = "Enter Name">
-	
-							</div>
-
-						</div>
-
-						<!--[Start surname signup]-->
-
-						<div class="form-group">
-
-							<label for = "Emp_Surname" class = "col-md-3 control-label">Surname</label>
-
-							<div class = "col-md-9">
-
-								<input type = "text" class = "form-control Signup_EmpSurname" placeholder = "Enter Surname">
-	
-							</div>
-
-						</div>
-
-						<!--[Start ID signup]-->
-
-						<div class = "form-group">
-
-							<label for = "Emp_ID" class = "col-md-3 control-label">ID</label>
-
-							<div class="col-md-9">
-
-								<input type="text" class="form-control Signup_EmpID" placeholder="Enter ID">
-	
-							</div>
-
-						</div>
-	
-						<!--[Start email signup]-->
-
-						<div class = "form-group">
-
-							<label for = "Emp_Email" class = "col-md-3 control-label">Email</label>
-
-							<div class = "col-md-9">
-  	
-								<input type = "text" class = "form-control Signup_EmpEmail" placeholder = "Enter Email Address">
-  	
-							</div>
-
-						</div>
-						
-						<!--[Start number signup]-->
-
-						<div class = "form-group">
-
-							<label for = "Emp_Number" class = "col-md-3 control-label">Number</label>
-
-							<div class = "col-md-9">
-  	
-								<input type = "text" class = "form-control Signup_EmpNumber" placeholder = "Enter Number">
-  	
-							</div>
-
-						</div>
-						
-						<!--[Start password signup]-->
-
-						<div class = "form-group">
-
-							<label for = "Emp_Password" class = "col-md-3 control-label">Password</label>
-
-							<div class = "col-md-9">
-  	
-								<input type = "password" class = "form-control Signup_EmpPassword" placeholder = "Enter Password">
-  	
-							</div>
-
-						</div>
-
-						<!--[Signup button]-->
-
-						<div class = "form-group">  						                                        
-
-							<div class = "col-md-offset-3 col-md-9">
-  	
-								<button type = "button" class = "btn btn-info Signup_Btn">Sign Up</button>
-  	
-							</div>
-
-						</div>		
-						<!--[Signup form]-->
-					</form>		
-				</div>
-					<!--[Panel body]-->  
-			</div>
- 
-		</div>
-
-		
-	</div>
+if (isset($_REQUEST['username'])){
+       
+	$username = stripslashes($_REQUEST['username']);
+        
+	$username = mysqli_real_escape_string($conn,$username); 
+	$email = stripslashes($_REQUEST['email']);
+	$email = mysqli_real_escape_string($conn,$email);
+	$password = stripslashes($_REQUEST['password']);
+	$password = mysqli_real_escape_string($conn,$password);
+	$begin_date = date("Y-m-d H:i:s");
+        $query = "INSERT into `users` (username, password, email, begin_date)
+     VALUES ('$username', '".md5($password)."', '$email', '$begin_date')";
+        $result = mysqli_query($conn,$query);
+        if($result){
+            echo "<div class='form'>
+<h3>You are registered successfully.</h3>
+<br/>Click here to <a href='login.html'>Login</a></div>";
+        }
+    }else{
+?>
+<div class="form">
+<h1>Registration</h1>
+<form name="Sign_up" action="" method="post">
+<input type="text" name="username" placeholder="Username" required />
+<input type="email" name="email" placeholder="Email" required />
+<input type="password" name="password" placeholder="Password" required />
+<input type="submit" name="submit" value="Register" />
+</form>
+</div>
+<?php } ?>
 </body>
 </html>
