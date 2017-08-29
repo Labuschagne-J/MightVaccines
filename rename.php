@@ -1,18 +1,21 @@
-
-
- <?php
+<?php
  
   include "connection.php";
- 
-mysqli_query($conn, "UPDATE inventory SET quantity = '".mysqli_real_escape_string($conn, $_POST['quantity'])."' WHERE stock_num = ".intval($_POST['stock_num']));
+ $quantity = $_POST['quantity'];
+$query =  "UPDATE inventory SET quantity = '".$quantity."' WHERE stock_num = '".$quantity."'";
 
-if (isset($_POST['quantity'])) {
-   mysqli_query($conn, "UPDATE inventory SET quantity = '".mysqli_real_escape_string($conn, $_POST['quantity'])."' WHERE stock_num = ".intval($_POST['stock_num']));
+if ($conn->query($query)) {
+  $msg = array("status" => 1, "msg" => "record updated" );
+}
+else{
+	echo "error: " .$query . "<br>" . mysqli_error($conn);
 }
 
-header('Location: List.html');
+$json =$msg;
 
-mysqli_close($conn);
+header('content-type: application/json');
+echo json_encode($json);
+@mysqli_close($conn);
 
 
 ?>

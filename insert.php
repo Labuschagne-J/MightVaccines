@@ -1,19 +1,30 @@
 <?php
-$host = "localhost";
-$username = "root";
-$password = "";
-$db_name = "test";
-$tbl_name = "inventory";
+include 'connection.php';
 $stock_num = $_POST['stock_num'];
 $stock_name = $_POST['stock_name'];
 $quantity = $_POST['quantity'];
-$conn = mysqli_connect("$host","$username","$password") or die ("cannot connect");
-mysqli_select_db($conn,$db_name) or die ("cannot select DB");
+
+
+
 $select = "insert into inventory(stock_num,stock_name,quantity) values ('".$stock_num."','".$stock_name."','".$quantity."')";
-$query1=mysqli_query($conn,$select);
-header("Refresh:1; url=Edit.html");
+if($conn->query($select))
+{
+	$msg = array ("status" =>1, "msg" => "Your record is successfully inserted");
+}
+else{
+	echo "Error: " .$select . "<br>" . mysqli_error($conn);
+}
+
+$json = $msg;
+
+header('content-type: application/json');
+echo json_encode($json);
 
 
-mysqli_close($conn);
+
+header("Refresh:2; url=Edit.html");
+
+
+
 
 ?>

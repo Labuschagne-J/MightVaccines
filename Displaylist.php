@@ -1,20 +1,23 @@
 	<?php 
 	
-	require('connection.php');
-	
+	include('connection.php');
+
    $sql = "SELECT * FROM inventory";
 
- $result = mysqli_query($conn,$sql)or die(mysqli_error());
+ $result = $conn->query($sql);
 
- echo "<table>";
- echo "<tr><th>Number</th><th>Name</th><th>Quantity</th></tr>";
+ 
 
-while($row = mysqli_fetch_array($result)) {
-    $stock_num = $row['stock_num'];
-    $stock_name = $row['stock_name'];
-    $quantity = $row['quantity'];
-    echo "<tr><td style='width: 200px;'>".$stock_num."</td><td style='width: 600px;'>".$stock_name."</td><td>".$quantity."</td></tr>";
+while($row = mysqli_fetch_assoc($result)) {
+   $msg[] = array("stock_num" => $row['stock_num'], "stock_name" => $row['stock_name'], "quantity" => $row['quantity']);
 } 
 
-echo "</table>";
-mysqli_close($conn);
+$json = $msg;
+header('content-type: application/json');
+$get =json_decode($_POST('$stock_name'));
+$stock_num = $get->stock_name;
+
+
+ 
+@mysqli_close($conn);
+ ?>
