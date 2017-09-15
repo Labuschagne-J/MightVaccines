@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="7061604523499"
+    token="-6393181643863946663"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="3545" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="611" />
+    <task
+        name="verifier"
+        duration="81" />
+
+    <artifact
+        location="C:\Users\Student\AndroidStudioProjects\GemChem\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="7061604523499"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Student\AndroidStudioProjects\GemChem\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
