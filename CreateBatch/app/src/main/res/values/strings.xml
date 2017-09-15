@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Production</string>
+    <string name="full_text">
+        You have selected to create a full batch of Bovine minerals
+        The following ingredients will be used and has been deducted from your inventory list:
+        SO-H20:         200L
+        NaCl:           20KG
+        PTLA:           100KG
+        Selesium salt:  3KG
+        Magnesium salt: 7KG
+        Zink salt:      25KG
+        Copper salt:    6KG
+        Chromium salt:  7KG
+
+        for a total 300L.
+    </string>
+    <string name="half_text">
+        You have selected to create half a batch of Bovine minerals
+        The following ingredients will be used and has been deducted from your inventory list:
+        SO-H20:         100L
+        NaCl:           10KG
+        PTLA:           50KG
+        Selesium salt:  1.5KG
+        Magnesium salt: 3.5KG
+        Zink salt:      12.5KG
+        Copper salt:    3KG
+        Chromium salt:  3.5KG
+
+        for a total 150L.
+    </string>
+    <string name="SOH20">SO-H20</string>
+    <string name="NaCl">NaCl</string>
+    <string name="PTLA">PTLA</string>
+    <string name="Selesiumsalt">Selesium salt</string>
+    <string name="Magnesiumsalt">Magnesium salt</string>
+    <string name="Zinksalt">Zink salt</string>
+    <string name="Coppersalt">Copper salt</string>
+    <string name="Chromiumsalt">Chromium salt</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="title_activity_invent">invent</string>
+    <string name="currentBatchFlag">000</string>
+
+
+
+</resources>
