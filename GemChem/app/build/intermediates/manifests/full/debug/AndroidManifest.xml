@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.gemchem.gemchem"
+    package="mightyvaccine.gemchem"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="25" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.1" />
+        android:value="26.0.0-alpha1" />
 
     <application
         android:allowBackup="true"
@@ -20,15 +18,13 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.app.gemchem.gemchem.LoginActivity" >
+        <activity android:name="mightyvaccine.gemchem.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.app.gemchem.gemchem.RegisterActivity" />
-        <activity android:name="com.app.gemchem.gemchem.UserAreaActivity" />
     </application>
 
 </manifest>
