@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="8sp"
+        android:text="Please enter the volume of the batch made: "
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_weight="0.00" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="8sp"
+        android:text="Proceed"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:visibility="visible"
+       />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/please_select_the_volume_t_hat_needs_to_be_made"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+       />
+
+    <CheckBox
+        android:id="@+id/checkFull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="8sp"
+        android:text="Full batch(200L)"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkHalf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="8sp"
+        android:text="Half batch(100L)"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+       />
+
+    <TextView
+        android:id="@+id/txtFull"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/full_text"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        android:background="@drawable/background4"
+       />
+
+    <Button
+        android:id="@+id/btnN"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:text="Process list"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:id="@+id/txtHalf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/half_text"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:visibility="invisible"
+       />
+
+    <RadioButton
+        android:id="@+id/rbAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="8sp"
+        android:text="Accept and continue"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:visibility="invisible"
+         />
+
+</LinearLayout>

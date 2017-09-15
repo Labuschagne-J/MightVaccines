@@ -3,102 +3,120 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_9577f14e4da42b789561bc157f514779d9cd68de.jar" />
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_6003b3ad21d0bfa03c5d8d78d31adb02f983ce8d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_d0f0dd18f04611523aa1a1e25bab981791534b48.jar" />
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.0.0-alpha1_be9dde07df5d1d2ba4c546813989a470d4c50249.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.0.0-alpha1_243038abd821879958075d532f04c3e140efcad8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.0.0-alpha1_db75bd7f2da11251bc5fa5a2c900cd0f562c46c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.0.0-alpha1_417ad7e5e877918e57fa43c2413454faeaa7d5c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_7b78d8d731aeaab99a1feedeabe839c220163369.jar" />
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.0.0-alpha1_38ff98fafc23499da536828a65b53d959a24007f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jar="C:\Users\Tiaan Rademeyer\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_c353d52c93969a110908f3b0917130946c0d1cba.jar" />
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_d2a8c5ce5ab67b8345a66abb4d64f56c96fa9022.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_54df19307fb197d82613938a20e3a129278fca89.jar" />
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.0.0-alpha1_610bd36117e80e1cf124db1400762deb1b6a20f7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_dcde4898344a99b1b42c45602bf3316d745cd724.jar" />
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.0.0-alpha1_274cf08e4cc93bfdfcdd5d73fd424d4776d8b536.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_99178c955bb063353aa132a6824a3597b09d4616.jar" />
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_59121150414c934f4fa924d602ad8884dae2f4ae.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_46c24bbbbfb47c30dbc8b46db9b3c9b8e12fd99d.jar" />
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.0.0-alpha1_76709a271697973bbce6faa14bd55ef666353d98.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jar="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_23aac61e015a37a9db8478bd7ae834f24c4a4668.jar" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_16a30cbc714476c3bbfc3a2feaa521dd478fd8bc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jar="C:\Users\Tiaan Rademeyer\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_f88453acdd37deb7046bc4fafc3954b57e27d859.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\Stefan\Desktop\AndroidStudioProjects\GemChem\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_f2f47560386b65ec954a4c907adfa1ed96225cda.jar" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Tiaan Rademeyer\AndroidStudioProjects\Gemchem\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_db44da88fa3019ecdbf0aca0b310ecf333abd3b8.jar" />
     </item>
 
 </items>

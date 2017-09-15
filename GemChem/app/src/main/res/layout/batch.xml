@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_batch_select"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mightyvaccine.afinal.Login"
+    android:orientation="vertical"
+    android:background="@drawable/background4">
+    >
+
+
+    <TextView
+        android:text="Process in progress"
+        android:layout_width="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/textIP" />
+
+    <Spinner
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:id="@+id/spinner" />
+    <TextView
+        android:text="Waiting to start process"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/textW" />
+
+    <Spinner
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:id="@+id/spinner2" />
+    <TextView
+        android:text="Finished batches"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFB" />
+    <TextView
+        android:text="..."
+        android:layout_width="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/textFinished" />
+
+    <TextView
+        android:text="Add New Batch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/input_batch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnAdd"
+        android:text="Add Batch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnNext"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
