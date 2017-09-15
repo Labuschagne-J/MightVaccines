@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tracker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mightyvaccine.tracker.TrackerActivity"
+    android:background="@drawable/background4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="Batch number: "
+        android:id="@+id/lbl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="..... "
+        android:id="@+id/label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process 1: LINE CLEARANCE"
+        android:id="@+id/lbl1" />
+
+    <TextView
+        android:layout_toRightOf="@id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..... "
+        android:id="@+id/lblA" />
+
+
+    <TextView
+        android:layout_below="@id/lblA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process 2: RAW MATERIALS"
+        android:id="@+id/lbl2" />
+
+    <TextView
+        android:layout_below="@+id/lblA"
+        android:layout_toRightOf="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..... "
+        android:id="@+id/lblB" />
+
+
+    <TextView
+        android:layout_below="@id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process 3: FIRST MIX"
+        android:id="@+id/lbl3" />
+
+    <TextView
+        android:layout_below="@+id/lblB"
+        android:layout_toRightOf="@+id/lbl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..... "
+        android:id="@+id/lblC" />
+    <TextView
+        android:layout_below="@id/lbl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process 4: SECOND MIX"
+        android:id="@+id/lbl4" />
+
+    <TextView
+        android:layout_below="@+id/lblC"
+        android:layout_toRightOf="@+id/lbl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..... "
+        android:id="@+id/lblD" />
+    <TextView
+        android:layout_below="@id/lbl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process 5: THIRD MIX"
+        android:id="@+id/lbl5" />
+
+    <TextView
+        android:layout_below="@+id/lblD"
+        android:layout_toRightOf="@+id/lbl5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..... "
+        android:id="@+id/lblE" />
+    <TextView
+        android:layout_below="@id/lbl5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process 6: FILTRATION"
+        android:id="@+id/lbl6" />
+
+    <TextView
+        android:layout_below="@+id/lblE"
+        android:layout_toRightOf="@+id/lbl6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..... "
+        android:id="@+id/lblF" />
+    <TextView
+        android:layout_below="@id/lbl6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process 7: LINE CLOSING"
+        android:id="@+id/lbl7" />
+
+    <TextView
+        android:layout_below="@+id/lblF"
+        android:layout_toRightOf="@+id/lbl7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..... "
+        android:id="@+id/lblG" />
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="-----------------------------------------------------------------"
+        android:id="@+id/lblI" />
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_gravity="center"
+        android:text="Bulk product release\nAll processes are Succesfully finnished!!!\nBatch is complete!!!"
+        android:id="@+id/lblH" />
+
+    <Button
+        android:text="Start Process"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/lblA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStart"
+        android:layout_alignParentTop="true" />
+    <Button
+        android:text="Finnished Process"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/lblA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/btnEnd"
+        android:layout_alignParentTop="true" />
+    <Button
+        android:text="Need Stock?"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/lblA"
+        android:layout_below="@+id/btnEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/btnStock"
+        android:layout_alignBottom="@+id/btnHelp" />
+
+    <Button
+        android:text="Need Help?"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHelp"
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/lblA"
+        android:layout_alignStart="@+id/btnStart" />
+    <Button
+        android:text="Next Batch!"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDone"
+        android:visibility="gone"
+        android:layout_below="@+id/lbl7"
+        android:layout_alignStart="@+id/btnStart" />
+    <Button
+        android:text="Continue Process"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCont"
+        android:visibility="gone"
+        android:layout_below="@+id/lbl7"
+        android:layout_alignStart="@+id/btnStart" />
+    </LinearLayout>
+</RelativeLayout>
